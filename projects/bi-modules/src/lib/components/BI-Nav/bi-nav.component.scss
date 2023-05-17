@@ -21,7 +21,7 @@ $border-clr: #3688FC;
 
 .nav-container{
   background-color: $bg-clr;
-  width: 17%;
+  width: 20%;
   .save-grb {
     @include btn-borders($save-clr);
   }
@@ -30,6 +30,11 @@ $border-clr: #3688FC;
   }
   .delete-grb{
     @include btn-borders($cancel-clr);
+  }
+  ::ng-deep {
+    .p-button {
+      padding: 2px !important;
+    }
   }
 .nav-btn {
   border: 0;

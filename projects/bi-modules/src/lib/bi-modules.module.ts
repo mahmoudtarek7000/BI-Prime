@@ -5,9 +5,9 @@ import {ReactiveFormsModule} from "@angular/forms";
 import {TableModule} from "primeng/table";
 import {NgForOf} from "@angular/common";
 import {InputTextModule} from "primeng/inputtext";
-import {ButtonModule} from "@progress/kendo-angular-buttons";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {BrowserModule} from "@angular/platform-browser";
+import {ButtonModule} from "primeng/button";
 
 
 
@@ -24,10 +24,11 @@ import {BrowserModule} from "@angular/platform-browser";
     NgForOf,
     InputTextModule,
     ButtonModule,
+    ButtonModule,
   ],
   exports: [
     BIGridComponent,
-    BiNavComponent
+    BiNavComponent,
   ]
 })
 export class BIModulesModule { }

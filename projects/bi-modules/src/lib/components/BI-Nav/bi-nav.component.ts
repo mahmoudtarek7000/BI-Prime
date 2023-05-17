@@ -1,6 +1,6 @@
 import {Component, ElementRef, Input, TemplateRef} from '@angular/core';
-import {INav} from "../../interfaces/inav";
-import { IGrid } from '../../interfaces/IGird.interface';
+import {INav} from "bi-interfaces/lib/interfaces/inav";
+import { IGrid } from 'bi-interfaces/lib/interfaces/IGrid';
 
 
 @Component({

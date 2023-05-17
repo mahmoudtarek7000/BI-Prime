@@ -2,12 +2,12 @@ import { Component, Input, OnInit, ViewChild } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { Table } from 'primeng/table';
 import { Observable } from 'rxjs';
-import { IColumns } from '../../../interfaces/IColumns.interface';
-import { IDataService } from '../../../interfaces/IDataService';
-import { IGrid } from '../../../interfaces/IGird.interface';
+import { IColumns } from 'bi-interfaces/lib/interfaces/IColumns.interface';
+import { IDataService } from 'bi-interfaces/lib/interfaces/IDataService';
+import { IGrid } from 'bi-interfaces/lib/interfaces/IGrid';
 import { AlertService } from "@full-fledged/alerts";
 @Component({
-    selector: 'lib-BI-Grid',
+    selector: 'BI-Grid',
     templateUrl: './bi-prime-grid.component.html',
     styleUrls: ['./bi-prime-grid.component.scss']
 })
@@ -18,7 +18,7 @@ export class BIGridComponent implements IGrid, OnInit {
     @Input() Key!: string;
     data!: any[];
     rowIndex: any;
-    GridData!: Observable<any>;
+    GridData!: any;
     dataItem: any = {};
     formGrid!: FormGroup;
     form: any = {};

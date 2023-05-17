@@ -4,4 +4,24 @@
   "lib": {
     "entryFile": "src/public-api.ts"
   }
+,"allowedNonPeerDependencies": [
+  "@angular/animations",
+  "@angular/cdk",
+  "@angular/common",
+  "@angular/compiler",
+  "@angular/core",
+  "@angular/forms",
+  "@angular/platform-browser",
+  "@angular/platform-browser-dynamic",
+  "@angular/router",
+  "@full-fledged/alerts",
+  "@progress/kendo-angular-buttons",
+  "@progress/kendo-angular-icons",
+  "bootstrap",
+  "primeicons",
+  "primeng",
+  "rxjs",
+  "tslib",
+  "zone.js"
+]
 }
